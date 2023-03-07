@@ -1,0 +1,92 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.shape {
+    cursor: move;
+    margin: 0px 50px;
+}
+
+.color-1 {
+    fill: #ffffff;
+    /* White */
+}
+
+.color-2 {
+    fill: #dbdbdb;
+    /* Light gray */
+}
+
+.color-3 {
+    fill: #616060;
+    /* Medium gray */
+}
+
+.color-4 {
+    fill: #000000;
+    /* Black */
+}
+
+.size-1 {
+    height: 100px;
+    width: 100px;
+}
+
+.size-2 {
+    height: 150px;
+    width: 150px;
+}   
+
+.size-3 {
+    height: 200px;
+    width: 200px;
+}   
+
+.size-4 {
+    height: 250px;
+    width: 250px;
+}
+
+
+#checkOrderBtn {
+    background: linear-gradient(to bottom, #0099cc, #006699);
+    /* Blue gradient */
+    border: none;
+    color: white;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#checkOrderBtn:hover {
+    background: linear-gradient(to bottom, #0088cc, #005588);
+    /* Darker blue gradient */
+}
+
+#checkOrderBtn:active {
+    background: linear-gradient(to bottom, #006699, #003366);
+    /* Even darker blue gradient */
+}
+
+.stepBtn {
+    background: #FFFFFF;
+    border: 2px solid #333;
+    color: #000;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
