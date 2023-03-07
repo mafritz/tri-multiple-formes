@@ -142,14 +142,14 @@ const possibleOrders = [
   {
     id: "5",
     label:
-      "Trie de la forme avec <strong>le moins de côtés</strong> à la forme avec <strong>le plus de côtés</strong>.",
+      "Trie de la forme avec le <strong>moins de côtés</strong> à la forme avec le <strong>plus de côtés</strong>.",
     expectedOrder: ["shape-1", "shape-2", "shape-3", "shape-4"],
     attribute: "data-shape",
   },
   {
     id: "6",
     label:
-      "Trie de la forme avec <strong>le plus de côtés</strong> à la forme avec <strong>le moins de côtés</strong>.",
+      "Trie de la forme avec le <strong>plus de côtés</strong> à la forme avec le <strong>moins de côtés</strong>.",
     expectedOrder: ["shape-4", "shape-3", "shape-2", "shape-1"],
     attribute: "data-shape",
   },
